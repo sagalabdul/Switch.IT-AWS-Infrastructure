@@ -45,7 +45,7 @@ This project designs that infrastructure using AWS best practices.
 
 ## 🏗️ Architecture Diagram
 
-![Switch.IT AWS Architecture](./Switch.IT-AWS-Infrastructure.png)
+![Switch.IT AWS Architecture](./Switch.IT%20-%20AWS%20Infrastructure.png)
 
 ---
 
