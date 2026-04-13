@@ -1,6 +1,6 @@
 # 🔐 Secure Cloud Infrastructure for Switch.IT
 
-> Designed by **Sagal Abdullahi**  
+> Designed by **Sagalabdul**  
 > A secure, scalable AWS cloud architecture for a global career-switching platform.
 
 ---
