@@ -1,63 +1,77 @@
-# 🔐 Secure Cloud Infrastructure for Switch.IT
+<div align="center">
 
-> Designed by **Sagalabdul**  
-> A secure, scalable AWS cloud architecture for a global career-switching platform.
+<img src="./Switch.IT%20-%20AWS%20Infrastructure.png" width="80" />
+
+# 🔐 Switch.IT — Secure Cloud Infrastructure
+
+**Designed by Sagalabdul**
+
+*A secure, scalable AWS cloud architecture for a global career-switching platform*
+
+![AWS](https://img.shields.io/badge/AWS-Cloud-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Security](https://img.shields.io/badge/Security-First-2d6a4f?style=for-the-badge&logo=shield&logoColor=white)
+![GDPR](https://img.shields.io/badge/GDPR-Compliant-52b788?style=for-the-badge)
+
+</div>
 
 ---
 
-## 📌 Project Overview
+## 🌿 Overview
 
-Switch.IT is a start-up expanding globally that needed a secure cloud infrastructure
-to handle sensitive user data (PII), comply with **EU GDPR**, and scale internationally.
-This project designs that infrastructure using AWS best practices.
+> Switch.IT is a global career-switching start-up that needed a **secure, scalable cloud infrastructure** to protect sensitive user data (PII), comply with **EU GDPR**, and serve users worldwide.
+> This project designs that infrastructure end-to-end using AWS.
 
 ---
 
 ## 🛡️ Core Security Principles
 
-| Principle | Description |
-|---|---|
-| 🔒 Security by Design | Security controls built in from day one |
-| 👤 Least Privilege Access | Minimum permissions for every user & service |
-| 🧱 Defense in Depth | Multiple independent layers of protection |
-| 📊 Continuous Monitoring | 24/7 threat detection and compliance tracking |
+<br>
+
+🔒 **Security by Design** — Security controls embedded from the very first design phase
+
+👤 **Least Privilege Access** — Every user and service gets only the permissions they need
+
+🧱 **Defense in Depth** — Multiple independent layers of protection across the entire stack
+
+📊 **Continuous Monitoring** — 24/7 threat detection, alerting and compliance tracking
 
 ---
 
-## ☁️ AWS Services Used
+## ☁️ AWS Services
 
-**Edge & Networking**
-`Route 53` `CloudFront` `AWS WAF` `AWS Shield` `API Gateway` `VPC`
-
-**Compute & Processing**
-`ECS Fargate` `AWS Lambda` `Auto Scaling` `ALB`
-
-**Storage & Database**
-`S3 (KMS Encrypted)` `RDS Multi-AZ (KMS Encrypted)` `ElastiCache (Redis)`
-
-**Security & Identity**
-`IAM` `AWS Cognito` `MFA` `KMS` `Secrets Manager`
-
-**Monitoring & Compliance**
-`CloudWatch` `CloudTrail` `GuardDuty` `Security Hub`
+| Layer | Services |
+|---|---|
+| 🌐 Edge & Networking | `Route 53` `CloudFront` `WAF` `Shield` `API Gateway` `VPC` |
+| ⚙️ Compute | `ECS Fargate` `Lambda` `Auto Scaling` `ALB` |
+| 🗄️ Storage & Database | `S3 (KMS)` `RDS Multi-AZ (KMS)` `ElastiCache Redis` |
+| 🔑 Security & Identity | `IAM` `Cognito` `MFA` `KMS` `Secrets Manager` |
+| 📡 Monitoring | `CloudWatch` `CloudTrail` `GuardDuty` `Security Hub` |
 
 ---
 
 ## 🏗️ Architecture Diagram
 
+<div align="center">
+
 ![Switch.IT AWS Architecture](./Switch.IT%20-%20AWS%20Infrastructure.png)
 
----
-
-## 📋 Key Features
-
-- ✅ GDPR compliant — all PII encrypted, access controlled and logged
-- ✅ DDoS protection via AWS WAF and Shield at the edge
-- ✅ Network isolation — database and storage never exposed to the internet
-- ✅ All data encrypted at rest (KMS) and in transit (HTTPS/TLS)
-- ✅ Secrets automatically rotated via AWS Secrets Manager
-- ✅ Multi-AZ database for high availability and disaster recovery
+</div>
 
 ---
 
-*Built as part of a cloud security project for Switch.IT*
+## ✅ Key Features
+
+- 🟢 **GDPR Compliant** — all PII encrypted, access controlled and logged
+- 🟢 **DDoS Protection** — AWS WAF and Shield block attacks at the edge
+- 🟢 **Network Isolation** — database and storage never exposed to the internet
+- 🟢 **Encryption Everywhere** — at rest via KMS, in transit via HTTPS/TLS
+- 🟢 **Auto Rotating Secrets** — AWS Secrets Manager handles all credentials
+- 🟢 **High Availability** — Multi-AZ RDS ensures zero data loss
+
+---
+
+<div align="center">
+
+*Built as part of a cloud security project · Switch.IT Platform*
+
+</div>
